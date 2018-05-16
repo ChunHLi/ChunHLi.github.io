@@ -19,10 +19,15 @@
 
 #btn {
 	font-size: 18px;
-	color: #FFF;
+	color: #D5D5D5;
 	padding: 12px 22px;
 	background-color: #424242;
 	border: 2px solid #FFF;
+}
+
+#btn:hover {
+	color: #424242;
+	background-color: #FFFFFF;
 }
 
 .carousel-caption {
