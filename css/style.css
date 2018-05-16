@@ -10,17 +10,18 @@
 	border-radius: 0px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	margin-bottom: 0px;
 }
 
 #override-active {
 	background-color: #424242;
 }
 
-.btn {
+#btn {
 	font-size: 18px;
 	color: #FFF;
 	padding: 12px 22px;
-	background: #424242;
+	background-color: #424242;
 	border: 2px solid #FFF;
 }
 
@@ -54,6 +55,7 @@
 .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
 	color: #FFFFFF;
 	background-color: #424242;
+	background: #424242;
 	border-radius: 0px;
 	border: 0px;
 }
