@@ -17,6 +17,12 @@
 	background-color: #424242;
 }
 
+#avatar {
+	border-radius: 50%;
+	border: 3px solid;
+	border-color: #20C20E; 
+}
+
 #btn {
 	font-size: 18px;
 	color: #D5D5D5;
@@ -33,6 +39,10 @@
 .carousel-caption {
 	top: 50%;
 	transform: translateY(-50%);
+}
+
+.body {
+	background-color: #D5D5D5;
 }
 
 .logo {
