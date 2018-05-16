@@ -15,7 +15,8 @@
 .navbar-brand {
 	float: left;
 	min-height: 55px;
-	padding: 0px;
+	padding-top: 0px;
+	margin: 0px;
 	border: 0px;
 }
 
