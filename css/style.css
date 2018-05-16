@@ -5,6 +5,11 @@
 	border-radius: 0px;
 }
 
+#override-navbar {
+	border: 0px;
+	border-radius: 0px;
+}
+
 .logo {
 	height: 55px;
 }
