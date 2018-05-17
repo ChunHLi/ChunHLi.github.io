@@ -51,6 +51,24 @@
 	background-image: url('../img/robots.png');
 }
 
+footer {
+	width: 100%;
+	background-color: #424242;
+	padding: 5%;
+	color: #FFF;
+}
+
+.fa{
+	padding: 30px;
+	font-size: 48px;
+	color: #FFF;
+}
+
+.fa:hover {
+	color: #D5D5D5;
+	text-decoration: none;
+}
+
 .logo {
 	height: 55px;
 }
