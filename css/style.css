@@ -41,8 +41,14 @@
 	transform: translateY(-50%);
 }
 
-body {
+.body {
 	background-color: #D5D5D5;
+	background-image: url('../img/robots.png');
+}
+
+#body {
+	background-color: #D5D5D5;
+	background-image: url('../img/robots.png');
 }
 
 .logo {
