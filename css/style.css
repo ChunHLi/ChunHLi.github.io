@@ -58,7 +58,7 @@
 }
 
 .accordion:after {
-	content: '002B';
+	content: '\002B';
 	color: #D5D5D5;
 	font-weight: bold;
 	float: right;
@@ -76,6 +76,11 @@
 	transition: max-height 0.4s ease-out;
 	background-image: url('../img/robots_dark.png');
 	color: #D5D5D5;
+}
+
+#override-panel {
+	border-radius: 0px;
+	border: 0px;
 }
 
 .body {
@@ -144,4 +149,8 @@ footer {
 	.carousel-caption{
 		display: none;
 	}
+}
+
+#override-p {
+	margin: 16px 0px;
 }
