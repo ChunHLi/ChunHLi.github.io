@@ -35,17 +35,25 @@ $('a[href*="#"]')
     }
   });
 
+
 var acc = document.getElementsByClassName("accordion");
+var h;
 var i;
 
 for (i = 0; i < acc.length; i++) {
+
   acc[i].addEventListener("click", function() {
+    for (h = 0; h < acc.length; h++){
+       var panell = (acc[h]).nextElementSibling;
+       panel.style.maxHeight = null;
+    }
     this.classList.toggle("clicked");
     var panel = this.nextElementSibling;
     if (panel.style.maxHeight){
       panel.style.maxHeight = null;
     } else {
       panel.style.maxHeight = panel.scrollHeight + "px";
+      
     } 
   });
 }

@@ -157,6 +157,7 @@ footer {
 }
 
 #override-header {
-	margin: 10px 16px 20px 16px;
+	margin: 16px 16px 32px 16px;
+	border-top: 0.1em solid #424242;
 	border-bottom: 0.1em solid #424242;
 }
