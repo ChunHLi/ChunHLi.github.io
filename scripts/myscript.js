@@ -45,7 +45,7 @@ for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
     for (h = 0; h < acc.length; h++){
        var panell = (acc[h]).nextElementSibling;
-       panel.style.maxHeight = null;
+       panell.style.maxHeight = null;
     }
     this.classList.toggle("clicked");
     var panel = this.nextElementSibling;
