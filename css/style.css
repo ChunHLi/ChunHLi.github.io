@@ -157,14 +157,12 @@ footer {
 }
 
 #override-header {
-	margin: 16px 16px 32px 16px;
+	margin: 32px 32px 64px 32px;
 	border-top: 0.1em solid #424242;
 	border-bottom: 0.1em solid #424242;
 }
 
 #polaroid {
-	
-	width: 80%;
 	background-color: white;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 	margin-bottom: 25px;
