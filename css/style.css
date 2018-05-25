@@ -161,3 +161,20 @@ footer {
 	border-top: 0.1em solid #424242;
 	border-bottom: 0.1em solid #424242;
 }
+
+.polaroid {
+	width: 80%;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	margin-bottom: 25px;
+}
+
+#exp {
+	opacity: 0;
+	width: 100%;
+	transition: .5s ease;	
+}
+
+#exp:hover {
+	opacity: 1;
+}
