@@ -74,17 +74,29 @@ br {
 
 .panel {
 	padding: 0 18px;
-	max-height: 0;
-	overflow: hidden;
-	transition: max-height 0.4s ease-out;
-	background-image: url('../img/robots_dark.png');
-	color: #D5D5D5;
-}
-
-#override-panel {
 	border-radius: 0px;
 	border: 0px;
 	margin: 0px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.4s ease-out;
+	color: #D5D5D5;
+}
+
+#override-panel-1 {
+	background-image: url('../img/education.png');
+}
+
+#override-panel-2 {
+	background-image: url('../img/athletics.png');
+}
+
+#override-panel-3 {
+	background-image: url('../img/gaming.png');
+}
+
+#override-panel-4 {
+	background-image: url('../img/travel.png');
 }
 
 .body {
