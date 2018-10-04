@@ -75,13 +75,16 @@ br {
 
 .panel {
 	padding: 0 18px;
-	border-radius: 0px;
-	border: 0px;
-	margin: 0px;
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 0.4s ease-out;
 	color: #D5D5D5;
+}
+
+#override-panel {
+	border-radius: 0px;
+	border: 0px;
+	margin: 0px;
 }
 
 #override-panel-1 {
