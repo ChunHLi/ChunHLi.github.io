@@ -81,26 +81,32 @@ br {
 	color: #D5D5D5;
 }
 
-#override-panel {
+#override-panel-1 {
+	background-image: url('../img/education.png');
 	border-radius: 0px;
 	border: 0px;
 	margin: 0px;
 }
 
-#override-panel-1 {
-	background-image: url('../img/education.png');
-}
-
 #override-panel-2 {
 	background-image: url('../img/athletics.png');
+	border-radius: 0px;
+	border: 0px;
+	margin: 0px;
 }
 
 #override-panel-3 {
 	background-image: url('../img/gaming.png');
+	border-radius: 0px;
+	border: 0px;
+	margin: 0px;
 }
 
 #override-panel-4 {
 	background-image: url('../img/travel.png');
+	border-radius: 0px;
+	border: 0px;
+	margin: 0px;
 }
 
 .body {
